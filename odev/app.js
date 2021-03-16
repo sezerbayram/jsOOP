@@ -19,8 +19,8 @@ class Ucgen {
     calcEnvironment = calcEnv();
     calcArea = calcArea();
 }
-   calcEnv = (a,b,c,env) => {
-     // Math.sqrt((x2-x1)*(x2-x1)+(y2-y1)*(y2-y1)) ... iki nokta arasi uzaklik formulu
+   calcEnv = (a,b,c,) => {
+     // Math.sqrt((x2-x1)*(x2-x1)+(y2-y1)*(y2-y1)) ... iki nokta arasi uzaklik formulu 
     a = Math.sqrt((nokta2.x-nokta1.x)*(nokta2.x-nokta1.x)+(nokta2.y-nokta1.y)*(nokta2.y-nokta1.y));
     b = Math.sqrt((nokta2.x-nokta3.x)*(nokta2.x-nokta3.x)+(nokta2.y-nokta3.y)*(nokta2.y-nokta3.y)); 
     c = Math.sqrt((nokta3.x-nokta1.x)*(nokta3.x-nokta1.x)+(nokta3.y-nokta1.y)*(nokta3.y-nokta1.y));
